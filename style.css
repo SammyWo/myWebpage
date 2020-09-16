@@ -1,0 +1,47 @@
+body {
+    background-color: darkblue;
+    margin: 100px;
+}
+  h1    {text-align: center;color: white;}
+  h2    {color: white;}
+  h3    {color: white;}
+  h4    {color: white;}
+  p     {color:white;}
+  a     {color: hotpink;}
+  
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMe {
+  border: 3px outset red;
+  background-color: black;
+}
+.itInterest {
+  border: 3px outset lightblue;
+  background-color: black;
+}
+.idealJob {
+  border: 3px outset red;
+  background-color:black;
+}
+.profile {
+  border: 3px outset lightblue;
+  background-color:black;
+}
+
+.projectIdea {
+  border: 3px outset red;
+  background-color:black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-color: white;
+  border-collapse: collapse;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
