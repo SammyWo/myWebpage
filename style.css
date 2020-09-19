@@ -15,6 +15,10 @@ img.center {
   margin-right: auto;
 }
 
+.contents {
+ text-align: center;
+ }
+
 .aboutMe {
   border: 3px outset red;
   background-color: black;
@@ -44,4 +48,20 @@ table, th, td {
   color: white;
   margin-left: auto;
   margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
